@@ -84,7 +84,6 @@ extension ViewController {
                             article.url = url
                             article.imgUrl = urlToImage
                         }
-                        //                        self.articles?.append(article)
                         
                         self.articlesArray.append(article)
                         

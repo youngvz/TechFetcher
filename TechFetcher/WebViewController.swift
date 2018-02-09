@@ -52,4 +52,10 @@ class WebViewController: UIViewController {
         
         webView.load(request)
     }
+    
+    func setupNavBar(){
+        let backItem = UIBarButtonItem()
+        backItem.title = "Back"
+        navigationItem.backBarButtonItem = backItem
+    }
 }
