@@ -26,8 +26,13 @@ class WebViewController: UIViewController {
         setupViews()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
     func setupViews(){
         setupWebView()
+        setupNavBar()
         
         view.addSubview(webView)
         
@@ -54,8 +59,8 @@ class WebViewController: UIViewController {
     }
     
     func setupNavBar(){
-        let backItem = UIBarButtonItem()
-        backItem.title = "Back"
-        navigationItem.backBarButtonItem = backItem
+        let backButton = UIBarButtonItem()
+        backButton.title = "Back"
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
     }
 }
