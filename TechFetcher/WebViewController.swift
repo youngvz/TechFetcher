@@ -62,5 +62,6 @@ class WebViewController: UIViewController {
         let backButton = UIBarButtonItem()
         backButton.title = "Back"
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        self.navigationController?.navigationBar.tintColor = .white
     }
 }

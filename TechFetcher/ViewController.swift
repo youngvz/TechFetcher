@@ -65,10 +65,9 @@ extension ViewController {
         let task = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
             
             if error != nil {
-                print(error)
+                print(error?.localizedDescription)
                 return
             }
-            
             
             do {
                 let json = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
