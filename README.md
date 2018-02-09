@@ -1,6 +1,6 @@
 # TechFetcher
 
-Refactored iOS app that fetches tech artciles from TechCrunch's API 
+Refactored iOS app that fetches tech articles from TechCrunch's API 
 Built using:
 - UITableView
 - WKWebView
