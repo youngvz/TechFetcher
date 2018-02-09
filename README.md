@@ -14,4 +14,4 @@ https://www.reddit.com/r/swift/comments/7wfoa2/need_help_with_uiwebview_in_simpl
 
 
 Viraj Shah
-\nVetek Consulting
+Vetek Consulting
